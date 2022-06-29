@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="100">
+      <animations>
+        <animation file="mechanical/waypoint_flag_idle.dae" name="Idle" speed="20"/>
+      </animations>
+      <mesh>props/waypoint_flag.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="banner_1">
+      <textures>
+	    <texture file="props/banner_castle_wall_1.png" name="baseTex"/>
+	  </textures>
+    </variant>	
+  </group>
+  <material>player_trans.xml</material>
+</actor>

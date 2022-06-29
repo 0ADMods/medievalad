@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="siege_wall_a">
+      <mesh>props/siege_wall_a.dae</mesh>
+      <textures>
+	    <texture file="structural/polish_civ_tex_a.png" name="baseTex"/>
+	    <texture file="structural/polish_civ_tex_norm.png" name="normTex"/>
+	    <texture file="structural/polish_civ_tex_spec.png" name="specTex"/>
+		<texture file="structural/ao/siege_wall_a_ao.png" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <material>basic_trans_ao_parallax_spec.xml</material>  
+</actor>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
+        <prop actor="props/units/shields/teutonic_small_kite_shield.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/knight_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/teutonic_helmet_a.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="armor-1">
+      <textures>
+        <texture file="skeletal/teutonic_armor_a.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="armor-2">
+      <textures>
+        <texture file="skeletal/teutonic_armor_b.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_cavalry_swordsman_shield_relax.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield_celt.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death_shield_a.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

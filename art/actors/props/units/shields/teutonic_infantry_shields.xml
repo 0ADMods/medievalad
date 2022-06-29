@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="2" name="shield_1">
+      <mesh>props/shield/shield_a.dae</mesh>
+      <textures>
+        <texture file="props/shield/shields_teutonic.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="shield_2">
+      <mesh>props/shield/infantry_kite_shield_a.dae</mesh>
+      <textures>
+        <texture file="props/shield/shields_teutonic.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

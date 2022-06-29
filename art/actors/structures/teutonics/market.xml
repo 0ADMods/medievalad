@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Teutonic Market">
+      <mesh>structural/teutonic_market.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+        <prop actor="props/structures/teutonics/stall_small_a.xml" attachpoint="stall-1"/>
+        <prop actor="props/structures/teutonics/stall_small_b.xml" attachpoint="stall-2"/>
+		<prop actor="props/structures/teutonics/stall_small_a.xml" attachpoint="stall-3"/>
+        <prop actor="props/structures/teutonics/stall_small_b.xml" attachpoint="stall-4"/>
+		<prop actor="props/structures/teutonics/stall_small_a.xml" attachpoint="stall-5"/>
+        <prop actor="props/structures/teutonics/stall_small_b.xml" attachpoint="stall-6"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel-1"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel-2"/>
+        <prop actor="props/special/common/garrison_flag_teutonic.xml" attachpoint="flag-1"/>			
+      </props>
+      <textures>
+	    <texture file="structural/teutonic_civ_center_tex.png" name="baseTex"/>
+	    <texture file="structural/teutonic_civ_center_tex_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_civ_center_tex_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_market_ao.png" name="aoTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/market_newest_prop_1.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/market_newest_props_new.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/market_newest_props_wooden.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+        <prop attachpoint="smoke"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

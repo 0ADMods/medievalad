@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>poland</Civ>
+    <SpecificName>Castle_Walls</SpecificName>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/polish_wall_tower</Tower>
+      <Gate>structures/polish_wall_gate</Gate>
+      <WallLong>structures/polish_wall_long</WallLong>
+      <WallMedium>structures/polish_wall_medium</WallMedium>
+      <WallShort>structures/polish_wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.85</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

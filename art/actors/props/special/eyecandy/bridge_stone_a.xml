@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <float/>
+  <castshadow/>
+  <group>
+    <variant name="bridge_stone_a">
+      <mesh>props/special/stone_bridge_a.dae</mesh>
+      <textures><texture file="props/teutonic_civ_tex.png" name="baseTex"/></textures>
+    </variant>
+  </group>
+</actor>

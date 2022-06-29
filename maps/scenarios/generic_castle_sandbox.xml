@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>desert</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.785398"/>
+		<SunRotation angle="-0.785396"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0" g="0.501961" b="0"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>35.114</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.913086</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="323.622" y="258.464" z="536.989"/>
+		<Rotation angle="-2.85492"/>
+		<Declination angle="0.732858"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "Name": "Sandbox Generic",
+  "Description": "A sandbox map with a generic castle.",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "generic"
+    },
+    {
+      "Civ": "polish"
+    },
+    {
+      "Civ": "teutonic"
+    }
+  ],
+  "CircularMap": true,
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="13">
+			<Template>actor|structures/generic/castle_stone_bridge_01.xml</Template>
+			<Position x="289.47391" z="333.2436"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="28316"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>actor|structures/generic/castle_stone_bridge_01.xml</Template>
+			<Position x="267.59357" z="360.23566"/>
+			<Orientation y="-0.73632"/>
+			<Actor seed="53860"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="292.91608" z="328.90882"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37441"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="262.68226" z="364.33256"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12722"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>actor|structures/generic/castle_gate_01.xml</Template>
+			<Position x="278.52646" z="347.53638"/>
+			<Orientation y="0.81168"/>
+			<Actor seed="17902"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="324.95942" z="359.45685"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="37441"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="294.7256" z="394.88059"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="12722"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="264.97971" z="302.61396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16649"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>actor|structures/generic/castle_wall_tower_round_01.xml</Template>
+			<Position x="231.22126" z="335.24064"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30700"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>actor|structures/generic/castle_gate_01.xml</Template>
+			<Position x="249.3072" z="320.61188"/>
+			<Orientation y="0.83384"/>
+			<Actor seed="39018"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>actor|structures/generic/castle_wall_long_01.xml</Template>
+			<Position x="259.64753" z="280.20878"/>
+			<Orientation y="-1.4197"/>
+			<Actor seed="9965"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>actor|structures/generic/castle_wall_long_01.xml</Template>
+			<Position x="208.61707" z="336.70682"/>
+			<Orientation y="0.02932"/>
+			<Actor seed="43115"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>actor|structures/generic/castle_civic_center_01.xml</Template>
+			<Position x="204.22324" z="274.633"/>
+			<Orientation y="-0.7555"/>
+			<Actor seed="42730"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>actor|structures/generic/castle_wall_tower_square_01.xml</Template>
+			<Position x="258.75306" z="260.48246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61211"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>actor|structures/generic/castle_wall_tower_square_01.xml</Template>
+			<Position x="246.98966" z="219.97205"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14908"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>actor|structures/generic/castle_wall_long_01.xml</Template>
+			<Position x="251.6837" z="239.53537"/>
+			<Orientation y="1.83782"/>
+			<Actor seed="30651"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

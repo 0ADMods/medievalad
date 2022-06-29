@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+	<variant frequency="1" name="helmet-1">
+      <mesh>props/helmet/bascinet_helmet.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
+      </textures>
+    </variant>	
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

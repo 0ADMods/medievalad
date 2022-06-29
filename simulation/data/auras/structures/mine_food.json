@@ -1,0 +1,10 @@
+{
+	"type": "player",
+	"affects": ["Player"],
+	"modifications": [
+		{ "value": "ResourceTrickle/Rates/food", "add": 1.0 }
+	],
+	"auraName": "Jumbo Harvest",
+	"auraDescription": "Generates 1 food per second.",
+	"isNumeric": true
+}

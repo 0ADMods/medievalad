@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="cargo_1">
+      <mesh>props/cargo_01.dae</mesh>
+      <textures>
+	    <texture file="props/prop_textures_01.png" name="baseTex"/>
+	  </textures>
+    </variant>
+    <variant frequency="1" name="cargo_2">
+      <mesh>props/cargo_02.dae</mesh>
+      <textures>
+	    <texture file="props/prop_textures_01.png" name="baseTex"/>
+	  </textures>
+    </variant>	
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

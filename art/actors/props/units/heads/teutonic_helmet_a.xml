@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+	<variant frequency="1" name="helmet-1">
+      <mesh>props/helmet/kettle_helmet.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="helmet-2">
+      <mesh>props/helmet/knight_flat_top_a.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="helmet-3">
+      <mesh>props/helmet/polish_helmet_1.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+	<variant frequency="1" name="helmet-4">
+      <mesh>props/helmet/norman_helmet_01.dae</mesh>
+      <textures>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
+      </textures>
+    </variant>	
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>

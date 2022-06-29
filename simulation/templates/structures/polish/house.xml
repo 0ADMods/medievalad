@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_house">
+  <Identity>
+    <Civ>poland</Civ>
+    <SpecificName>Haus</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/polish/house.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>polish</Civ>
+    <GenericName>Polish Kingdom</GenericName>
+    <Icon>emblems/emblem_polish.png</Icon>
+  </Identity>
+</Entity>

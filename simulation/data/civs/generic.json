@@ -1,0 +1,17 @@
+{
+	"Code": "generic",
+	"Culture": "generic",
+	"Name": "Generic Kingdom",
+	"History": "",
+	"Music": [],
+	"Factions": [],
+	"CivBonuses": [],
+	"TeamBonuses": [],
+	"Structures": [],
+	"WallSets": [],
+	"StartEntities": [],
+	"Formations": [],
+	"AINames": [],
+	"SkirmishReplacements": {},
+	"SelectableInGameSetup": true
+}

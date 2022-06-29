@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="sword_1">
+      <mesh>props/knight_one_hand_sword.dae</mesh>
+      <textures>
+        <texture file="props/knight_sword_metal.png" name="baseTex"/>		
+      </textures>	  
+    </variant>
+    <variant frequency="1" name="warhammer_1">
+      <mesh>props/warhammer.dae</mesh>
+      <textures>
+        <texture file="props/mod_wep_tex.png" name="baseTex"/>		
+      </textures>	  
+    </variant>
+    <variant frequency="1" name="axe_1">
+      <mesh>props/one_hand_axe_01.dae</mesh>
+      <textures>
+        <texture file="props/mod_wep_tex.png" name="baseTex"/>		
+      </textures>	  
+    </variant>	
+  </group> 
+  <material>basic_trans.xml</material> 
+</actor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_short">
+  <Footprint>
+    <Square width="16.0" depth="16.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+    <GarrisonHolder>
+    <VisibleGarrisonPoints>
+      <Archer1>
+        <X>0</X><Y>10.9</Y><Z>-4.1</Z>
+      </Archer1>
+      <Archer2>
+        <X>4.1</X><Y>10.9</Y><Z>0</Z>
+      </Archer2>
+    </VisibleGarrisonPoints>
+  </GarrisonHolder>  
+  <Identity>
+    <Civ>poland</Civ>
+    <SelectionGroupName>structures/polish_wallset_stone</SelectionGroupName>
+    <SpecificName>Castle_Walls</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="15.9" depth="15.9"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/polish/wall_short.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>8.0</Length>
+  </WallPiece>
+</Entity>

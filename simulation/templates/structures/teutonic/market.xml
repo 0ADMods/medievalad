@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_economic_market">
+  <Cost>
+    <PopulationBonus>12</PopulationBonus>
+  </Cost>
+  <Footprint>
+    <Square width="28.5" depth="28.5"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>teutonic</Civ>
+  </Identity>
+  <Obstruction>
+    <Static width="27.5" depth="27.5"/>
+  </Obstruction>
+  <VisualActor>
+    <Actor>structures/teutonics/market.xml</Actor>
+    <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>teutonic</Civ>
+    <GenericName>Teutonics</GenericName>
+    <History>The Teutonic Order were formed during the time of the crusades to the Holy Land. They were commonly known as the Teutonic Knights, being moslty made of small voluntary and mercenary military membership, they serverd as a crusading military order for protection to pilgrims in the Holy Land and served as protectors in the Baltics during the Middle Ages..</History>
+    <Icon>emblems/emblem_teutonics.png</Icon>
+  </Identity>
+</Entity>

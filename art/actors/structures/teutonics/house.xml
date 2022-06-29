@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="teutonic_house_a">
+      <mesh>structural/teutonic_house_complex_a.dae</mesh>	  
+      <textures>
+	    <texture file="structural/teutonic_textures_a.png" name="baseTex"/>
+	    <texture file="structural/teutonic_textures_a_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_textures_a_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_house_a_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>
+    <variant frequency="1" name="teutonic_house_b">
+      <mesh>structural/teutonic_house_complex_a.dae</mesh>	  
+      <textures>
+	    <texture file="structural/teutonic_textures_b.png" name="baseTex"/>
+	    <texture file="structural/teutonic_textures_a_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_textures_a_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_house_a_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>
+    <variant frequency="1" name="teutonic_house_c">
+      <mesh>structural/teutonic_house_complex_b.dae</mesh>	  
+      <textures>
+	    <texture file="structural/teutonic_textures_a.png" name="baseTex"/>
+	    <texture file="structural/teutonic_textures_a_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_textures_a_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_house_b_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>
+    <variant frequency="1" name="teutonic_house_d">
+      <mesh>structural/teutonic_house_complex_b.dae</mesh>	  
+      <textures>
+	    <texture file="structural/teutonic_textures_b.png" name="baseTex"/>
+	    <texture file="structural/teutonic_textures_a_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_textures_a_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_house_b_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>	
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>

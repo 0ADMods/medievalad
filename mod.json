@@ -1,0 +1,8 @@
+{
+	"name": "medievalad",
+	"version": "1.0.0",
+	"label": "Medieval A.D.",
+	"url": "https://github.com/0ADMods/medievalad",
+	"description": "A faction, based in the 12th-14th century.",
+	"dependencies": ["0ad=0.0.26"]
+}

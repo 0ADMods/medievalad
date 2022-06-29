@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_bannerman">
+  <Identity>
+    <Civ>teutonic</Civ>
+    <SelectionGroupName>units/teutonic/support_bannerman</SelectionGroupName>
+    <SpecificName>Bannerman</SpecificName>
+    <Icon>units/celt_support_healer.png</Icon>
+    <Rank>Basic</Rank>
+  </Identity>
+  <VisualActor>
+    <Actor>units/teutonics/bannerman.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,140 @@
+{
+	"Code": "teutonic",
+	"Culture": "teutonic",
+	"Name": "Teutonic Order",
+	"Emblem": "session/portraits/emblems/emblem_teutonics.png",
+	"History": "The Teutonic Order were formed during the time of the crusades to the Holy Land. They were commonly known as the Teutonic Knights, being moslty made of small voluntary and mercenary military membership, they serverd as a crusading military order for protection to pilgrims in the Holy Land and served as protectors in the Baltics during the Middle Ages..",
+	"Music": [
+		{
+			"File": "Celtic_Pride.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Cisalpine_Gaul.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harvest_Festival.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Water's_Edge.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sunrise.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions": [
+		{
+			"Name": "Teutonic Order",
+			"Description": "N/A.",
+			"Technologies": [
+				{
+					"Name": "Vae Victis",
+					"History": "Woe to the Defeated! The Gallic chieftain Brennus seized Rome (with the exception of a garrison on Capitoline Hill). When Camillus besieged him with a relief force from Veii, he negotiated his surrender for 1000 pounds of gold, and adding the weight of his sword on the scale when the Romans complained that he used false weights he uttered those famous words.",
+					"Description": "A set amount of metal and food from every structure destroyed or captured."
+				},
+				{
+					"Name": "Carnutes",
+					"History": "The Carnutes were druids from Aulercia. They fought when needed, and were largely responsible for turning back the Belgae incursions into Armorica and Aulercia.",
+					"Description": "Gallic druids gain a small melee attack."
+				}
+			],
+			"Heroes": [
+				{
+					"Name": "Viridomarus",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "?"
+				}
+			]
+		}
+	],
+	"CivBonuses": [
+		{
+			"Name": "Ardiosmanae",
+			"History": "Represents Celtic farming methods. ",
+			"Description": "Enhanced food gained from ranching and farming. "
+		},
+		{
+			"Name": "Deas Celtica",
+			"History": "Celtic religion and druidry inspired their warlike mindset. ",
+			"Description": "Druids increase attack rates of soldiers near them slightly."
+		}
+	],
+	"TeamBonuses": [
+		{
+			"Name": "Druidic Wisdom",
+			"History": "The Druids of the Gauls maintained an organized religion that advanced the technology of their people even during wartime.",
+			"Description": "-10% research time for technologies of allies."
+		}
+	],
+	"Structures": [
+		{
+			"Name": "Schachtofen",
+			"Class": "",
+			"Emblem": "",
+			"History": "A cone shaped furnace used to make pig iron.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+	],
+	"WallSets": [
+		"other/wallset_palisade",
+		"structures/teutonic_wallset_stone"
+	],
+	"StartEntities": [
+		{
+			"Template": "structures/teutonic_civil_centre"
+		},
+		{
+			"Template": "units/teutonic_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/teutonic_infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/teutonic_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/teutonic_cavalry_spearman_b"
+		}
+	],
+	"Formations": [
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames": [
+		"Viridomarus",
+		"Brennus",
+		"Cativolcus",
+		"Cingetorix",
+		"Vercingetorix",
+		"Divico",
+		"Ambiorix",
+		"Liscus",
+		"Valetiacus",
+		"Viridovix"
+	],
+	"SkirmishReplacements": {
+		"skirmish/units/default_cavalry": "units/teutonic_cavalry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/teutonic_infantry_archer_b",
+		"skirmish/structures/default_house_5": "structures/{civ}_house"
+	},
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="dagger_1">
+      <mesh>props/dagger_1.dae</mesh>
+      <textures>
+        <texture file="props/knight_sword_metal.png" name="baseTex"/>
+        <texture file="props/knight_sword_metal_spec.png" name="specTex"/>		
+      </textures>	  
+    </variant>	
+  </group>
+  
+  <material>basic_spec.xml</material>
+  
+</actor>

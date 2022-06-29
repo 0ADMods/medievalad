@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="100" name="Base">
+      <mesh>structural/teutonic_storage.dae</mesh>
+      <props>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_01"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_02"/>
+        <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel_03"/>
+        <prop actor="props/structures/decals/celt_tavern.xml" attachpoint="root"/>
+      </props>
+      <textures>
+	    <texture file="structural/teutonic_textures_a.png" name="baseTex"/>
+	    <texture file="structural/teutonic_textures_a_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_textures_a_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_storehouse_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/storehouse_1.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/storehouse_2.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/storehouse_shield.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/celt_tavern.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

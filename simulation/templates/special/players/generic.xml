@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_player">
+  <Identity>
+    <Civ>generic</Civ>
+    <GenericName>Generic Kingdom</GenericName>
+    <Icon>emblems/emblem_generic.png</Icon>
+  </Identity>
+</Entity>

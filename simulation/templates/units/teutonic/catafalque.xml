@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_catafalque">
+  <Auras datatype="tokens">
+    units/catafalques/knight_catafalque_1
+    units/catafalques/knight_catafalque_2
+  </Auras>
+  <Identity>
+    <Civ>teutonic</Civ>
+    <SpecificName>Ambiorix</SpecificName>
+  </Identity>
+</Entity>

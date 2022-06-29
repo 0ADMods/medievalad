@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_scout">
+  <Identity>
+    <Civ>teutonic</Civ>
+    <SelectionGroupName>units/teutonic/infantry_scout</SelectionGroupName>
+    <SpecificName>Scout</SpecificName>
+    <Icon>units/scout.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/teutonics/infantry_scout.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Teutonic Barracks">
+      <mesh>structural/teutonic_barracks.dae</mesh>
+      <props>
+        <prop actor="props/structures/decals/gravel_5x5.xml" attachpoint="root"/>
+        <prop actor="props/special/eyecandy/handcart_1.xml" attachpoint="cart-1"/>
+        <prop actor="props/units/shields/teutonic_shields.xml" attachpoint="shield-1"/>	
+        <prop actor="props/units/shields/teutonic_shields.xml" attachpoint="shield-2"/>
+        <prop actor="props/units/shields/teutonic_shields.xml" attachpoint="shield-3"/>		
+		<prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel-1"/>
+      </props>
+      <textures>
+	    <texture file="structural/teutonic_civ_center_tex.png" name="baseTex"/>
+	    <texture file="structural/teutonic_civ_center_tex_norm.png" name="normTex"/>
+	    <texture file="structural/teutonic_civ_center_tex_spec.png" name="specTex"/>
+		<texture file="structural/ao/teutonic_barracks_ao.png" name="aoTex"/>		
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_teutonic.xml" attachpoint="garrisoned-1"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_med_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_props_new.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_props_1.xml" attachpoint="root"/>
+        <prop actor="props/structures/celts/barracks_weapons.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/celt_barracks.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
