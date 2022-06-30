@@ -5,6 +5,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/teutonics/cavalry_swordsman_b_m.xml</Actor>
+    <Actor>units/teutonics/cavalry_swordsman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

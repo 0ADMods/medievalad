@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="sword_1">
+      <mesh>props/knight_one_hand_sword.dae</mesh>
+      <textures>
+        <texture file="props/knight_sword_metal.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
   <Resistance>
-    <Damage>
-      <Hack>5</Hack>
-      <Pierce>5</Pierce>
-    </Damage>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+    </Entity>
   </Resistance>
   <Attack>
     <Melee>
+      <AttackName>Polearm</AttackName>
       <Damage>
         <Hack>30</Hack>
         <Pierce>5</Pierce>
@@ -29,19 +32,19 @@
   </Cost>
   <Identity>
     <VisibleClasses datatype="tokens">Polearms</VisibleClasses>
-    <GenericName>Infnatry Polearms</GenericName>
+    <GenericName>Infantry Polearms</GenericName>
     <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
-    <Formations datatype="tokens">
-      special/formations/syntagma
-    </Formations>
   </Identity>
   <Loot>
     <wood>5</wood>
   </Loot>
+  <UnitAI>
+    <Formations datatype="tokens">
+      special/formations/syntagma
+    </Formations>
+  </UnitAI>
   <UnitMotion>
     <WalkSpeed op="mul">0.8</WalkSpeed>
-    <Run>
-      <Speed op="mul">0.8</Speed>
-    </Run>
+    <Acceleration op="mul">0.8</Acceleration>
   </UnitMotion>
 </Entity>

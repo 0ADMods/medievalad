@@ -5,29 +5,29 @@
 	<variant frequency="1" name="helmet-1">
       <mesh>props/helmet/knight_flat_top_a.dae</mesh>
       <textures>
-        <texture file="props/helmet/knight_flat_top_a.png" name="baseTex"/>
-        <texture file="props/helmet/knight_flat_top_a_spec.png" name="specTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="helmet-2">
       <mesh>props/helmet/knight_flat_top_a.dae</mesh>
       <textures>
-        <texture file="props/helmet/knight_flat_top_b.png" name="baseTex"/>
-        <texture file="props/helmet/knight_flat_top_a_spec.png" name="specTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="helmet-3">
       <mesh>props/helmet/great_helm_a.dae</mesh>
       <textures>
-        <texture file="props/helmet/knight_flat_top_a.png" name="baseTex"/>
-        <texture file="props/helmet/knight_flat_top_a_spec.png" name="specTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="helmet-4">
       <mesh>props/helmet/teutonic_great_helm_a.dae</mesh>
       <textures>
-        <texture file="props/helmet/knight_flat_top_a.png" name="baseTex"/>
-        <texture file="props/helmet/knight_flat_top_a_spec.png" name="specTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex.png" name="baseTex"/>
+        <texture file="props/helmet/mod_metal_helmet_tex_spec.png" name="specTex"/>
       </textures>
     </variant>
 	<variant frequency="1" name="helmet-5">
@@ -36,7 +36,7 @@
         <texture file="props/helmet/bascinet_tex.png" name="baseTex"/>
         <texture file="props/helmet/bascinet_tex_spec.png" name="specTex"/>
       </textures>
-    </variant>	
+    </variant>
   </group>
   <material>basic_trans_spec.xml</material>
 </actor>

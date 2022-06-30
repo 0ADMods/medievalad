@@ -8,6 +8,6 @@
     <SpecificName>Amoridas</SpecificName>
   </Identity>
   <VisualActor>
-    <Actor>structures/celts/blacksmith.xml</Actor>
+    <Actor>structures/teutonics/blacksmith.xml</Actor>
   </VisualActor>
 </Entity>

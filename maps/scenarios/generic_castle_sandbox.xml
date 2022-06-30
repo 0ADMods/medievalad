@@ -84,7 +84,7 @@
 			<Actor seed="12722"/>
 		</Entity>
 		<Entity uid="17">
-			<Template>actor|structures/generic/castle_gate_01.xml</Template>
+			<Template>actor|structures/generic/castle_wall_gate_01.xml</Template>
 			<Position x="278.52646" z="347.53638"/>
 			<Orientation y="0.81168"/>
 			<Actor seed="17902"/>
@@ -114,7 +114,7 @@
 			<Actor seed="30700"/>
 		</Entity>
 		<Entity uid="27">
-			<Template>actor|structures/generic/castle_gate_01.xml</Template>
+			<Template>actor|structures/generic/castle_wall_gate_01.xml</Template>
 			<Position x="249.3072" z="320.61188"/>
 			<Orientation y="0.83384"/>
 			<Actor seed="39018"/>

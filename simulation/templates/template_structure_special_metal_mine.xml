@@ -18,14 +18,13 @@
    <Health>
     <Max>300</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health> 
+  </Health>
   <Footprint replace="">
     <Circle radius="5.5"/>
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder disable=""/>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Foundry</GenericName>
     <Icon>structures/wheelbarrow_metal_mine.png</Icon>
     <SpecificName>Schachtofen</SpecificName>

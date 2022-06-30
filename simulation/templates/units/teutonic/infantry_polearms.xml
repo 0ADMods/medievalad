@@ -3,7 +3,6 @@
   <Identity>
     <Civ>teutonic</Civ>
     <SelectionGroupName>units/teutonic/infantry_polearms</SelectionGroupName>
-    <GenericName>Infantry Polearms</GenericName>
     <SpecificName>Pezétairos</SpecificName>
     <Icon>units/polearm.png</Icon>
   </Identity>

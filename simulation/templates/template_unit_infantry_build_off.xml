@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit">
+
   <Resistance>
-    <Damage>
-      <Hack>2</Hack>
-      <Pierce>4</Pierce>
-      <Crush>5</Crush>
-    </Damage>
+    <Entity>
+      <Damage>
+        <Hack>2</Hack>
+        <Pierce>4</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
   </Resistance>
   <Attack>
     <Capture>
-      <Value>2</Value>
+      <AttackName>Capture</AttackName>
+      <Capture>2</Capture>
       <MaxRange>4</MaxRange>
       <RepeatTime>1000</RepeatTime>
       <RestrictedClasses datatype="tokens">Field Palisade SiegeWall StoneWall</RestrictedClasses>
     </Capture>
     <Slaughter>
+      <AttackName>Slaughter</AttackName>
       <Damage>
-        <Hack>50.0</Hack>
-        <Pierce>0.0</Pierce>
-        <Crush>0.0</Crush>
+        <Hack>1000</Hack>
       </Damage>
       <MaxRange>2</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
     </Slaughter>
   </Attack>
   <Builder>
@@ -58,8 +63,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>circle/128x128.png</MainTexture>
-        <MainTextureMask>circle/128x128_mask.png</MainTextureMask>
+        <MainTexture>128x128/ellipse.png</MainTexture>
+        <MainTextureMask>128x128/ellipse_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

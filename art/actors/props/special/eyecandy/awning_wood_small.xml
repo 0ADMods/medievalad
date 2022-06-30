@@ -4,7 +4,9 @@
   <group>
     <variant name="Small Wood Awning">
       <mesh>props/awning_wooden_sm.dae</mesh>
-      <textures><texture file="structural/iber_struct.dds" name="baseTex"/></textures>
+      <textures>
+        <texture file="structural/iber_struct.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
 </actor>

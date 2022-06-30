@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_scout">
   <Resistance>
-    <Damage>
-      <Hack>5</Hack>
-      <Pierce>5</Pierce>
-    </Damage>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+    </Entity>
   </Resistance>
   <Attack>
     <Melee>
+      <AttackName>Dagger</AttackName>
       <Damage>
-        <Hack>11</Hack>
+        <Hack>1</Hack>
         <Pierce>0</Pierce>
+        <Crush>0.0</Crush>
       </Damage>
-      <RepeatTime>750</RepeatTime>
-      <PreferredClasses datatype="tokens">Siege</PreferredClasses>
+      <MaxRange>3.5</MaxRange>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Melee>
   </Attack>
   <Cost>
@@ -30,9 +36,7 @@
     <metal>5</metal>
   </Loot>
   <UnitMotion>
-    <WalkSpeed op="mul">1.05</WalkSpeed>
-    <Run>
-      <Speed op="mul">1.05</Speed>
-    </Run>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
+    <Acceleration op="mul">0.8</Acceleration>
   </UnitMotion>
 </Entity>

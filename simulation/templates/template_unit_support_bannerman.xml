@@ -9,7 +9,6 @@
     <Max>85</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">-ConquestCritical</Classes>
     <GenericName>Bannerman</GenericName>
     <Rank>Basic</Rank>
     <RequiredTechnology>phase_town</RequiredTechnology>
@@ -22,8 +21,8 @@
   <Selectable>
     <Overlay>
       <Texture>
-        <MainTexture>plus/128x128.png</MainTexture>
-        <MainTextureMask>plus/128x128_mask.png</MainTextureMask>
+        <MainTexture>128x128/plus.png</MainTexture>
+        <MainTextureMask>128x128/plus_mask.png</MainTextureMask>
       </Texture>
     </Overlay>
   </Selectable>

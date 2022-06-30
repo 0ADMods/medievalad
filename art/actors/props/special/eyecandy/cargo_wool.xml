@@ -13,7 +13,7 @@
       <textures>
 	    <texture file="props/prop_textures_01.png" name="baseTex"/>
 	  </textures>
-    </variant>	
+    </variant>
   </group>
-  <material>basic_trans.xml</material>
+  <material>default.xml</material>
 </actor>
