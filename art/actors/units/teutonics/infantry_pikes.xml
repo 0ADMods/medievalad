@@ -3,43 +3,43 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/armor/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>	
-		<prop actor="props/units/heads/teutonic_helmet_a.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/teutonic_helmet_a.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/pikes_a.xml" attachpoint="weapon_R"/>
       </props>
-	</variant>
+    </variant>
   </group>
   <group>
-	<variant frequency="1" name="armor-1">
+    <variant frequency="1" name="armor-1">
       <textures>
         <texture file="skeletal/generic_hauberk_1.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-2">
+    <variant frequency="1" name="armor-2">
       <textures>
         <texture file="skeletal/generic_gambeson_a.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-3">
+    <variant frequency="1" name="armor-3">
       <textures>
         <texture file="skeletal/generic_gambeson_b.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-4">
+    <variant frequency="1" name="armor-4">
       <textures>
         <texture file="skeletal/generic_gambeson_c.png" name="baseTex"/>
       </textures>
     </variant>
-	<variant frequency="1" name="armor-5">
+    <variant frequency="1" name="armor-5">
       <textures>
         <texture file="skeletal/generic_gambeson_cross_a.png" name="baseTex"/>
       </textures>
-    </variant>		
+    </variant>
   </group>
   <group>
-    <variant file="biped/pikeman_base.xml"/>
+    <variant file="biped/base_pikeman_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>

@@ -2,12 +2,33 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_healer_male_banner.xml">
+    <variant file="biped/base_support_bannerman_healer.xml">
       <mesh>skeletal/new/m_armor_pants_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
-        <prop actor="props/special/common/garrison_flag_teutonic.xml" attachpoint="weapon_R"/>
+        <prop actor="props/special/common/bannerman_flag_teutonic.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/heads/teutonic_helmet_a.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="helmet-1">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-2">
+      <props>
+        <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-3">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="helmet-4">
+      <props>
+        <prop actor="props/units/heads/new/head_celt_su3.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>

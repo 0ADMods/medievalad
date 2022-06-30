@@ -2,15 +2,15 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="female">	
+    <variant frequency="1" name="female">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_female_celt.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/celt_fem.dds" name="baseTex"/>
+        <texture file="skeletal/celt/dress_female_02_02.png" name="baseTex"/>
       </textures>
-    </variant>	
+    </variant>
   </group>
   <group>
     <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->

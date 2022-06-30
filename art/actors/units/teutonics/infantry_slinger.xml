@@ -3,12 +3,12 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/armor/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/sling.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/slingrock.xml" attachpoint="projectile"/>
-        <prop actor="props/units/stone_pouch.xml" attachpoint="sheath_R"/>		
+        <prop actor="props/units/stone_pouch.xml" attachpoint="sheath_R"/>
       </props>
     </variant>
   </group>
@@ -27,7 +27,7 @@
       <textures>
         <texture file="skeletal/slinger_03.png" name="baseTex"/>
       </textures>
-    </variant>	
+    </variant>
   </group>
   <group>
     <variant file="biped/base_slinger_ready.xml"/>

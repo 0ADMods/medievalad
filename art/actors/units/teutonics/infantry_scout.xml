@@ -7,19 +7,19 @@
       <props>
         <prop actor="props/units/heads/new/head_iber_su1.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/knight_weapons_infantry.xml" attachpoint="weapon_R"/>
-		<prop actor="props/units/heads/knight_helmets.xml" attachpoint="helmet"/>		
+        <prop actor="props/units/heads/knight_helmets.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-	<variant frequency="1" name="armor-1">
+    <variant frequency="1" name="armor-1">
       <textures>
         <texture file="skeletal/13th_armor_01.png" name="baseTex"/>
       </textures>
-    </variant>	
+    </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_fast_relax_mod.xml"/>
+    <variant file="biped/base_swordsman_shield_fast_relax.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
