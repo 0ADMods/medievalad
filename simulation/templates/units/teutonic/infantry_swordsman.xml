@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_swordsman">
   <Identity>
     <Civ>teutonic</Civ>
+    <Icon>units/teutonic/swordsman_a.png</Icon>
     <SelectionGroupName>units/teutonic/infantry_swordsman_b</SelectionGroupName>
     <SpecificName>Swordsman</SpecificName>
-    <Icon>units/teutonic/swordsman_a.png</Icon>
   </Identity>
-<Promotion disable=""/>
+  <Promotion disable="" />
   <VisualActor>
     <Actor>units/teutonics/infantry_swordsman.xml</Actor>
   </VisualActor>

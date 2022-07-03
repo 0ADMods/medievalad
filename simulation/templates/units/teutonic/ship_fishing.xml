@@ -2,8 +2,8 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>teutonic</Civ>
-    <SpecificName>Lembus</SpecificName>
     <Icon>units/celt_ship_fishing.png</Icon>
+    <SpecificName>Lembus</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/celts/fishing_boat.xml</Actor>

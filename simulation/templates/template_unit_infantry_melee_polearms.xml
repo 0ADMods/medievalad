@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_melee">
-  <Resistance>
-    <Entity>
-      <Damage>
-        <Hack>5</Hack>
-        <Pierce>5</Pierce>
-      </Damage>
-    </Entity>
-  </Resistance>
   <Attack>
     <Melee>
       <AttackName>Polearm</AttackName>
-      <Damage>
-        <Hack>30</Hack>
-        <Pierce>5</Pierce>
-      </Damage>
-      <MaxRange>5.0</MaxRange>
-      <RepeatTime>2000</RepeatTime>
       <Bonuses>
         <BonusCavMelee>
           <Classes>Cavalry</Classes>
           <Multiplier>3.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
+      <Damage>
+        <Hack>30</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+      <MaxRange>5.0</MaxRange>
+      <RepeatTime>2000</RepeatTime>
     </Melee>
   </Attack>
   <Cost>
@@ -31,20 +23,28 @@
     </Resources>
   </Cost>
   <Identity>
-    <VisibleClasses datatype="tokens">Polearms</VisibleClasses>
     <GenericName>Infantry Polearms</GenericName>
     <Tooltip>Counters: 3x vs. Cavalry.</Tooltip>
+    <VisibleClasses datatype="tokens">Polearms</VisibleClasses>
   </Identity>
   <Loot>
     <wood>5</wood>
   </Loot>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
   <UnitAI>
     <Formations datatype="tokens">
       special/formations/syntagma
     </Formations>
   </UnitAI>
   <UnitMotion>
-    <WalkSpeed op="mul">0.8</WalkSpeed>
     <Acceleration op="mul">0.8</Acceleration>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
   </UnitMotion>
 </Entity>

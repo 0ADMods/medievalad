@@ -7,8 +7,8 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="17.5" depth="23.0"/>
     <Height>8.0</Height>
+    <Square depth="23.0" width="17.5" />
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -18,7 +18,7 @@
     <SpecificName>Addoldy</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="17.5" depth="23.0"/>
+    <Static depth="23.0" width="17.5" />
   </Obstruction>
   <VisualActor>
     <Actor>structures/polish/temple.xml</Actor>

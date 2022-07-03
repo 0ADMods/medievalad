@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
   <Cost>
-    <PopulationBonus>2</PopulationBonus>
-  </Cost>
+</Cost>
   <Footprint>
-    <Square width="19.0" depth="18.0"/>
+    <Square depth="18.0" width="19.0" />
   </Footprint>
   <Identity>
     <Civ>teutonic</Civ>
     <SpecificName>Ffermdy</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="17.0" depth="16.0"/>
+    <Static depth="16.0" width="17.0" />
   </Obstruction>
+  <Population>
+    <Bonus>2</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/gauls/farmstead.xml</Actor>
   </VisualActor>

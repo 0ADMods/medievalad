@@ -5,14 +5,14 @@
     <SpecificName>Castle_Walls</SpecificName>
   </Identity>
   <WallSet>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
     <Templates>
-      <Tower>structures/generic/wall_tower</Tower>
       <Gate>structures/generic/wall_gate</Gate>
+      <Tower>structures/generic/wall_tower</Tower>
       <WallLong>structures/generic/wall_long</WallLong>
       <WallMedium>structures/generic/wall_medium</WallMedium>
       <WallShort>structures/generic/wall_short</WallShort>
     </Templates>
-    <MaxTowerOverlap>0.90</MaxTowerOverlap>
-    <MinTowerOverlap>0.05</MinTowerOverlap>
   </WallSet>
 </Entity>

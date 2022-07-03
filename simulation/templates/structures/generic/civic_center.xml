@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
   <Footprint>
-    <Square width="19.0" depth="30.0"/>
     <Height>8.0</Height>
+    <Square depth="30.0" width="19.0" />
   </Footprint>
   <Identity>
     <Civ>generic</Civ>
     <SpecificName>Civic Centre</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="19.0" depth="30.0"/>
+    <Static depth="30.0" width="19.0" />
   </Obstruction>
   <VisualActor>
     <Actor>structures/generic/castle_civic_center_01.xml</Actor>

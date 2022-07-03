@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_swordsman">
   <Identity>
     <Civ>teutonic</Civ>
-    <SelectionGroupName>units/teutonic/cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Kavallerie-Schwertkämpfer</SpecificName>
     <Icon>units/teutonic/cavalry_swordsman_a.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <SelectionGroupName>units/teutonic/cavalry_swordsman_b</SelectionGroupName>
+    <SpecificName>Kavallerie-Schwertk&#228;mpfer</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/teutonic/cavalry_swordsman_a</Entity>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_infantry_scout">
+  <Attack>
+    <Melee>
+      <AttackName>Dagger</AttackName>
+      <Damage>
+        <Crush>0.0</Crush>
+        <Hack>1</Hack>
+        <Pierce>0</Pierce>
+      </Damage>
+      <MaxRange>3.5</MaxRange>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+      <PrepareTime>500</PrepareTime>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <metal>10</metal>
+      <wood>10</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <GenericName>Scout</GenericName>
+    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
+  </Identity>
+  <Loot>
+    <metal>5</metal>
+  </Loot>
   <Resistance>
     <Entity>
       <Damage>
@@ -8,35 +35,8 @@
       </Damage>
     </Entity>
   </Resistance>
-  <Attack>
-    <Melee>
-      <AttackName>Dagger</AttackName>
-      <Damage>
-        <Hack>1</Hack>
-        <Pierce>0</Pierce>
-        <Crush>0.0</Crush>
-      </Damage>
-      <MaxRange>3.5</MaxRange>
-      <PrepareTime>500</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
-      <PreferredClasses datatype="tokens">Human</PreferredClasses>
-    </Melee>
-  </Attack>
-  <Cost>
-    <Resources>
-      <wood>10</wood>
-      <metal>10</metal>
-    </Resources>
-  </Cost>
-  <Identity>
-    <VisibleClasses datatype="tokens">Sword</VisibleClasses>
-    <GenericName>Scout</GenericName>
-  </Identity>
-  <Loot>
-    <metal>5</metal>
-  </Loot>
   <UnitMotion>
-    <WalkSpeed op="mul">0.8</WalkSpeed>
     <Acceleration op="mul">0.8</Acceleration>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
   </UnitMotion>
 </Entity>

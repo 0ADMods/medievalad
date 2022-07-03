@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Attack disable=""/>
+  <Attack disable="" />
   <Footprint>
-    <Square width="10.0" depth="10.0"/>
     <Height>20.0</Height>
+    <Square depth="10.0" width="10.0" />
   </Footprint>
-    <GarrisonHolder>
+  <GarrisonHolder>
     <VisibleGarrisonPoints>
       <Archer1>
-        <X>-2</X><Y>16.0</Y><Z>-3</Z>
+        <X>-2</X>
+        <Y>16.0</Y>
+        <Z>-3</Z>
       </Archer1>
       <Archer2>
-        <X>2</X><Y>16.0</Y><Z>-3</Z>
+        <X>2</X>
+        <Y>16.0</Y>
+        <Z>-3</Z>
       </Archer2>
     </VisibleGarrisonPoints>
   </GarrisonHolder>
@@ -21,9 +25,9 @@
     <Tooltip>Use to defend your Castle.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="9.5" depth="9.5"/>
+    <Static depth="9.5" width="9.5" />
   </Obstruction>
-  <RallyPoint disable=""/>
+  <RallyPoint disable="" />
   <VisualActor>
     <Actor>structures/polish/wall_tower.xml</Actor>
   </VisualActor>

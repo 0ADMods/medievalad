@@ -85,7 +85,7 @@
 	],
 	"WallSets": [
 		"other/wallset_palisade",
-		"structures/teutonic_wallset_stone"
+		"structures/teutonic/wallset_stone"
 	],
 	"StartEntities": [
 		{

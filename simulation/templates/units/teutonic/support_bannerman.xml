@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_bannerman">
   <Identity>
     <Civ>teutonic</Civ>
-    <SelectionGroupName>units/teutonic/support_bannerman</SelectionGroupName>
-    <SpecificName>Bannerman</SpecificName>
     <Icon>units/celt_support_healer.png</Icon>
     <Rank>Basic</Rank>
+    <SelectionGroupName>units/teutonic/support_bannerman</SelectionGroupName>
+    <SpecificName>Bannerman</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/teutonics/bannerman.xml</Actor>

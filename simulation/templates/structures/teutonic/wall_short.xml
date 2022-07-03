@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_short">
   <Footprint>
-    <Square width="9.5" depth="7.0"/>
     <Height>9.0</Height>
+    <Square depth="7.0" width="9.5" />
   </Footprint>
   <Identity>
     <Civ>teutonic</Civ>
@@ -10,7 +10,7 @@
     <SpecificName>Castle_Walls</SpecificName>
   </Identity>
   <Obstruction>
-    <Static width="9.0" depth="7.0"/>
+    <Static depth="7.0" width="9.0" />
   </Obstruction>
   <VisualActor>
     <Actor>structures/teutonics/wall_short.xml</Actor>

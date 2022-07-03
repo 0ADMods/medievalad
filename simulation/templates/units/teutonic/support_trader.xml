@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_trader">
   <Footprint>
-    <Circle radius="1.5"/>
+    <Circle radius="1.5" />
     <Height>3.0</Height>
   </Footprint>
   <Identity>
     <Civ>teutonic</Civ>
-    <SpecificName>Cyfnewidiwr</SpecificName>
     <Icon>units/celt_support_trader.png</Icon>
+    <SpecificName>Cyfnewidiwr</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/celts/trader.xml</Actor>

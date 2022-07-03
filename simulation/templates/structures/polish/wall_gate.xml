@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_gate">
   <Footprint>
-    <Square width="30.2" depth="13.5"/>
     <Height>8.0</Height>
+    <Square depth="13.5" width="30.2" />
   </Footprint>
   <Identity>
     <Civ>poland</Civ>
@@ -10,9 +10,9 @@
   </Identity>
   <Obstruction>
     <Obstructions>
-      <Right width="10.0" depth="13" x="12" z="0"/>
-      <Left width="10.0" depth="13" x="-12" z="0"/>
-      <Door width="13" depth="13" x="0" z="0"/>
+      <Door depth="13" width="13" x="0" z="0" />
+      <Left depth="13" width="10.0" x="-12" z="0" />
+      <Right depth="13" width="10.0" x="12" z="0" />
     </Obstructions>
   </Obstruction>
   <VisualActor>

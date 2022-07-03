@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_wall_tower">
-  <Attack disable=""/>
+  <Attack disable="" />
   <Footprint>
-    <Square width="10.0" depth="10.0"/>
     <Height>20.0</Height>
+    <Square depth="10.0" width="10.0" />
   </Footprint>
-  <GarrisonHolder disable=""/>
+  <GarrisonHolder disable="" />
   <Identity>
     <Civ>generic</Civ>
     <SpecificName>Wall_Tower</SpecificName>
     <Tooltip>Does not shoot or garrison.</Tooltip>
   </Identity>
   <Obstruction>
-    <Static width="9.5" depth="9.5"/>
+    <Static depth="9.5" width="9.5" />
   </Obstruction>
-  <RallyPoint disable=""/>
+  <RallyPoint disable="" />
   <VisualActor>
     <Actor>structures/generic/castle_wall_tower_square_01.xml</Actor>
   </VisualActor>

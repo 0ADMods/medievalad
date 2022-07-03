@@ -2,6 +2,6 @@
 <Entity parent="template_structure_special_metal_mine">
   <Identity>
     <Civ>teutonic</Civ>
-    <SpecificName>Schachtofen</SpecificName>	
+    <SpecificName>Schachtofen</SpecificName>
   </Identity>
 </Entity>

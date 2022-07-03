@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_healer">
   <Identity>
     <Civ>teutonic</Civ>
-    <SelectionGroupName>units/teutonic/support_healer_b</SelectionGroupName>
-    <SpecificName>Druides</SpecificName>
     <Icon>units/celt_support_healer.png</Icon>
     <Rank>Basic</Rank>
+    <SelectionGroupName>units/teutonic/support_healer_b</SelectionGroupName>
+    <SpecificName>Druides</SpecificName>
   </Identity>
   <Promotion>
     <Entity>units/teutonic/support_healer_a</Entity>

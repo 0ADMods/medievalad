@@ -2,11 +2,11 @@
 <Entity parent="template_unit_infantry_melee_polearms">
   <Identity>
     <Civ>teutonic</Civ>
-    <SelectionGroupName>units/teutonic/infantry_polearms</SelectionGroupName>
-    <SpecificName>Pezétairos</SpecificName>
     <Icon>units/polearm.png</Icon>
+    <SelectionGroupName>units/teutonic/infantry_polearms</SelectionGroupName>
+    <SpecificName>Pez&#233;tairos</SpecificName>
   </Identity>
-<Promotion disable=""/>
+  <Promotion disable="" />
   <VisualActor>
     <Actor>units/teutonics/infantry_polearms.xml</Actor>
   </VisualActor>

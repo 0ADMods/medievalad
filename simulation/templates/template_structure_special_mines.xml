@@ -1,69 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure">
-  <Armour>
-    <Hack>20</Hack>
-    <Pierce>30</Pierce>
-    <Crush>3</Crush>
-    <Foundation>
-      <Hack>3</Hack>
-      <Pierce>10</Pierce>
-      <Crush>3</Crush>
-    </Foundation>
-  </Armour>
   <BuildRestrictions>
     <Category>Special</Category>
-	<Distance>
-	  <FromClass>CivilCentre</FromClass>
-	  <MaxDistance>90</MaxDistance>
-	</Distance>
+    <Distance>
+      <FromClass>CivilCentre</FromClass>
+      <MaxDistance>90</MaxDistance>
+    </Distance>
   </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>0</wood>
-      <stone>200</stone>
       <metal>200</metal>
+      <stone>200</stone>
+      <wood>0</wood>
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="24.0" depth="24.0"/>
     <Height>8.0</Height>
+    <Square depth="24.0" width="24.0" />
   </Footprint>
   <GarrisonHolder>
-    <Max>5</Max>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Support Infantry Cavalry</List>
     <BuffHeal>1</BuffHeal>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <EjectHealth>0.1</EjectHealth>
+    <List datatype="tokens">Support Infantry Cavalry</List>
     <LoadingRange>2</LoadingRange>
+    <Max>5</Max>
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Special Building</GenericName>
-    <Tooltip>This is a special building unique to a particular civilization.</Tooltip>
     <Classes datatype="tokens">SpecialBuilding</Classes>
-    <VisibleClasses datatype="tokens">City</VisibleClasses>
+    <GenericName>Special Building</GenericName>
     <RequiredTechnology>phase_town</RequiredTechnology>
+    <Tooltip>This is a special building unique to a particular civilization.</Tooltip>
+    <VisibleClasses datatype="tokens">City</VisibleClasses>
   </Identity>
   <Obstruction>
-    <Static width="24.0" depth="24.0"/>
+    <Static depth="24.0" width="24.0" />
   </Obstruction>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Crush>3.0</Crush>
+        <Hack>20.0</Hack>
+        <Pierce>30.0</Pierce>
+      </Damage>
+    </Entity>
+    <Foundation>
+      <Damage>
+        <Crush>3</Crush>
+        <Hack>3</Hack>
+        <Pierce>10</Pierce>
+      </Damage>
+    </Foundation>
+  </Resistance>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_storehouse.xml</select>
       <constructed>interface/complete/building/complete_storehouse.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
     </SoundGroups>
   </Sound>
   <TerritoryInfluence>
-    <Root>false</Root>
     <Radius>38</Radius>
+    <Root>false</Root>
     <Weight>5000</Weight>
-  </TerritoryInfluence> 
+  </TerritoryInfluence>
   <VisualActor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>
   </VisualActor>

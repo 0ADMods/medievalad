@@ -3,27 +3,27 @@
   <Auras datatype="tokens">
     structures/mine_metal
   </Auras>
+  <BuildRestrictions>
+    <Category>MetalMine</Category>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>100</BuildTime>
     <Resources>
       <food>0</food>
-      <wood>200</wood>
-      <stone>100</stone>
       <metal>0</metal>
+      <stone>100</stone>
+      <wood>200</wood>
     </Resources>
   </Cost>
-    <BuildRestrictions>
-    <Category>MetalMine</Category>
-  </BuildRestrictions>
-   <Health>
-    <Max>300</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Footprint replace="">
     <Circle radius="5.5"/>
     <Height>6.0</Height>
   </Footprint>
   <GarrisonHolder disable=""/>
+  <Health>
+    <Max>300</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
   <Identity>
     <GenericName>Foundry</GenericName>
     <Icon>structures/wheelbarrow_metal_mine.png</Icon>
@@ -31,19 +31,20 @@
   </Identity>
   <Loot>
     <food>50</food>
-    <wood>25</wood>
     <stone>15</stone>
+    <wood>25</wood>
   </Loot>
   <Obstruction>
-    <Static width="9.0" depth="9.0"/>
+    <Static depth="9.0" width="9.0"/>
   </Obstruction>
   <ProductionQueue disable=""/>
   <RallyPoint disable=""/>
+  <Researcher disable=""/>
   <Sound>
     <SoundGroups>
-      <select>interface/select/building/sel_storehouse.xml</select>
       <constructed>interface/complete/building/complete_storehouse.xml</constructed>
       <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_storehouse.xml</select>
     </SoundGroups>
   </Sound>
   <StatusBars>
@@ -52,6 +53,7 @@
   <TerritoryInfluence>
     <Radius>20</Radius>
   </TerritoryInfluence>
+  <Trainer disable=""/>
   <VisualActor>
     <Actor>structures/teutonics/metal_mine_special.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>

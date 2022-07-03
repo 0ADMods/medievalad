@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_ram">
   <Footprint replace="">
-    <Square width="6.75" depth="10.0"/>
     <Height>3.0</Height>
+    <Square depth="10.0" width="6.75" />
   </Footprint>
   <Identity>
     <Civ>teutonic</Civ>
-    <SpecificName>Ram</SpecificName>
     <Icon>units/iber_siege_ram.png</Icon>
+    <SpecificName>Ram</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>structures/teutonics/siege_ram.xml</Actor>

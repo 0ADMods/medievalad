@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_fortress">
   <Cost>
-    <PopulationBonus>12</PopulationBonus>
-  </Cost>
+</Cost>
   <Identity>
     <Civ>teutonic</Civ>
     <SpecificName>Reszel Castle</SpecificName>
     <Tooltip>Train Teutonic units and champions. Construct siege weapons.</Tooltip>
   </Identity>
-  <ProductionQueue>
+  <Population>
+    <Bonus>12</Bonus>
+  </Population>
+  <Researcher>
+    <Technologies datatype="tokens">
+      siege_attack
+      siege_armor
+      siege_cost_metal
+      siege_cost_wood
+    </Technologies>
+  </Researcher>
+  <Sound>
+    <SoundGroups>
+      <constructed>interface/complete/building/complete_fortress.xml</constructed>
+      <death>attack/destruction/building_collapse_large.xml</death>
+      <select>interface/select/building/sel_fortress.xml</select>
+    </SoundGroups>
+  </Sound>
+  <Trainer>
     <Entities datatype="tokens">
 	  units/{civ}_infantry_spearman_b
 	  units/{civ}_infantry_swordsman_b
@@ -17,25 +34,12 @@
       units/{civ}_champion_cavalry
       units/{civ}_champion_infantry	  
     </Entities>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_armor
-      siege_cost_metal
-      siege_cost_wood
-    </Technologies>
-  </ProductionQueue>
-  <Sound>
-    <SoundGroups>
-      <select>interface/select/building/sel_fortress.xml</select>
-      <constructed>interface/complete/building/complete_fortress.xml</constructed>
-      <death>attack/destruction/building_collapse_large.xml</death>
-    </SoundGroups>
-  </Sound>
+  </Trainer>
   <VisualActor>
     <Actor>structures/teutonics/fortress_teutonic.xml</Actor>
   </VisualActor>
   <WallPiece>
-    <Length>16.8</Length>
     <Indent>5.8</Indent>
+    <Length>16.8</Length>
   </WallPiece>
 </Entity>

@@ -3,5 +3,5 @@
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
-  <Promotion disable=""/>
+  <Promotion disable="" />
 </Entity>

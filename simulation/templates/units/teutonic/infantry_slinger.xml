@@ -2,12 +2,12 @@
 <Entity parent="template_unit_infantry_ranged_slinger">
   <Identity>
     <Civ>teutonic</Civ>
-    <SelectionGroupName>units/teutonic/infantry_slinger</SelectionGroupName>
     <GenericName>Slinger</GenericName>
-    <SpecificName>Slinger</SpecificName>
     <Icon>units/teutonic/archer_a.png</Icon>
+    <SelectionGroupName>units/teutonic/infantry_slinger</SelectionGroupName>
+    <SpecificName>Slinger</SpecificName>
   </Identity>
-<Promotion disable=""/>
+  <Promotion disable="" />
   <VisualActor>
     <Actor>units/teutonics/infantry_slinger.xml</Actor>
   </VisualActor>

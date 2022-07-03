@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_market">
   <Cost>
-    <PopulationBonus>12</PopulationBonus>
-  </Cost>
+</Cost>
   <Footprint>
-    <Square width="28.5" depth="28.5"/>
     <Height>8.0</Height>
+    <Square depth="28.5" width="28.5" />
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -14,8 +13,11 @@
     <Civ>poland</Civ>
   </Identity>
   <Obstruction>
-    <Static width="27.5" depth="27.5"/>
+    <Static depth="27.5" width="27.5" />
   </Obstruction>
+  <Population>
+    <Bonus>12</Bonus>
+  </Population>
   <VisualActor>
     <Actor>structures/polish/market.xml</Actor>
     <FoundationActor>structures/fndn_5x5.xml</FoundationActor>

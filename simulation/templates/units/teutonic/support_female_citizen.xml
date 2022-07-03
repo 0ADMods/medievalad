@@ -2,10 +2,10 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>teutonic</Civ>
-    <SpecificName>Citizen Worker</SpecificName>
     <GenericName>Citizen</GenericName>
     <Icon>units/celt_support_female_citizen.png</Icon>
     <SelectionGroupName>units/teutonic/support_citizen</SelectionGroupName>
+    <SpecificName>Citizen Worker</SpecificName>
   </Identity>
   <VisualActor>
     <Actor>units/teutonics/female_citizen.xml</Actor>
