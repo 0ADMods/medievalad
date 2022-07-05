@@ -34,5 +34,5 @@ We could always use another helping hand with this project. There are several wa
 
 ## 🤝 Contributors
 
-**BigTiger**:    2D/3D art (Special thanks for laying the ground work of this awesome mod).
-**Stan`**:       2D/3D art
+- **BigTiger**:    2D/3D art (Special thanks for laying the ground work of this awesome mod).
+- **Stan`**:       2D/3D art
